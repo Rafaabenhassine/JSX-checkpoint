@@ -6,7 +6,9 @@
   justify-content: space-around;
 }
 
-
+.card-img, .card-img-top {
+  margin-top: 3rem;
+}
 
 
 @property --rotate {
@@ -16,7 +18,7 @@
 }
 
 :root {
-  --card-height: 65vh;
+  --card-height: 80vh;
   --card-width: calc(var(--card-height) / 1.5);
 }
 
@@ -111,19 +113,3 @@ a {
   font-weight: bold;
   margin-top: 2rem;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
