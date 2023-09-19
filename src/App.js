@@ -14,6 +14,8 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 
 function App() {
   const firstName = prompt("enter your name");
+  let name="rafaa"
+  let lastName="benHassine"
   return (
     <div>
 
@@ -76,7 +78,7 @@ function App() {
         <br/>
         
         <img src ="https://www.pngall.com/wp-content/uploads/5/Hello-PNG-Picture.png"  alt = "Description" />;
-        <i style={{color:"rgb(88 199 250 / 100%)"}}>the ultimate iphone 14 is here</i>;
+        <i style={{color:"rgb(88 199 250 / 100%)"}}>the ultimate iphone 14 is here {name+" "+lastName}</i>;
       </div>
       </div>
     </div>
