@@ -59,18 +59,12 @@ function App() {
     <br/>
     <br/>
     <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
+    <br/>
+    <br/>
+    
     <div className='App'>
-      
       <Card style={{ width: '25rem'}}>
-        
       <Url />
-      
-      
       <Card.Body>
         <Card.Title>{<Name />}</Card.Title>
         <Card.Title>{<Description />}</Card.Title>
@@ -79,8 +73,10 @@ function App() {
       </Card.Body>
       </Card>
       <div>
-        <p>hello there</p>;
-        <img src ="https://www.pngall.com/wp-content/uploads/5/Hello-PNG-Picture.png"  alt = "Description" />
+        <br/>
+        
+        <img src ="https://www.pngall.com/wp-content/uploads/5/Hello-PNG-Picture.png"  alt = "Description" />;
+        <i style={{color:"rgb(88 199 250 / 100%)"}}>the ultimate iphone 14 is here</i>;
       </div>
       </div>
     </div>
@@ -89,3 +85,8 @@ function App() {
 }
 
 export default App;
+
+
+
+
+
